@@ -6,12 +6,13 @@ function isValidCard(solicitud){
 		var nTarjeta = [];
 		var array = Array.from("solicitud").reverse();
 		
-		if(respuesta !="");{
-			alert("Gracias");
+		if(respuesta !=""){
+			alert("Ingrase lo solicitado");
 		} else {
 			alert("Ingrese número de tarjeta válida");
-		}while (true);
+		}while (respuesta =="");
 
+		}
 		
 		for(var i=0; i<array.length; i++){
 			nTarjeta.push(parseInt(array[i]));
